@@ -1,16 +1,19 @@
 import slack from '../assets/slack.png'
+import github from "../assets/github.png"
+import zuri from "../assets/zuri.png"
+import i4g from "../assets/I4G.png"
 function Footer() {
 
 
     return (
    <footer>
     <div className="socials">
-        <img src='../assets/slack.png' alt="slack icon" /><img src="../assets/github.png" alt="github icon" />
+        <img src={slack} alt="slack icon" /><img src={github} alt="github icon" />
     </div>
     <div className="sponsors">
-        <img src="../assets/zuri.png" alt="" />
+        <img src={zuri} alt="zuri internship logo" />
         <div>HNG Internship 9 Frontend Task</div>
-        <img src="../assets/I4G.png" alt="" />
+        <img src={i4g} alt="I4G logo" />
     </div>
    </footer>
      )
