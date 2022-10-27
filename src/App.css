@@ -37,6 +37,7 @@ a{
 .share{
   position: absolute;
   right: 20%;
+  top: 7%;
 }
 .share-mobile{
   display: none;
