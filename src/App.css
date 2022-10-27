@@ -28,6 +28,19 @@ a{
   gap: 1rem;
   margin-top: 6rem;
 }
+.profile>div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.share{
+  position: absolute;
+  right: 25%;
+}
+.share-mobile{
+  display: none;
+}
 #slack{
   display: none;
 }
@@ -78,6 +91,12 @@ footer div{
 
 @media (max-width:950px){
   footer{
+    display: none;
+  }
+  .share-mobile{
+    display: block;
+  }
+  .share-desktop{
     display: none;
   }
 }
