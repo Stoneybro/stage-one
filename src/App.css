@@ -28,11 +28,14 @@ a{
   gap: 1rem;
   margin-top: 6rem;
 }
-.profile>div{
+.profile-wrapper{
   width: 100%;
   display: flex;
   justify-content: center;
   position: relative;
+}
+.profile-img{
+  display: inline;
 }
 .share{
   position: absolute;
