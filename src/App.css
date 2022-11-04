@@ -78,7 +78,7 @@ a{
 footer{
   display: flex;
   flex-direction: column;
-  gap: 7rem;
+  gap: 6rem;
   margin-top: 1rem;
 }
 footer div{
