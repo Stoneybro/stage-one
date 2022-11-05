@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom"
+import slack from '../assets/slack.png'
+import github from "../assets/github.png"
 function Links() {
 
 
@@ -11,6 +13,9 @@ function Links() {
     <a href="https://background.zuri.team" className="link" id="pitch">Background Check for Coders</a>
     <a href="https://books.zuri.team/design-rules" className="link" id="book__design">Design Books</a>
     <Link  className="link" id="contact" to='/contact'>Contact me</Link>
+    <div className="socials">
+        <img src={slack} alt="slack icon" /><img src={github} alt="github icon" />
+    </div>
    </div>
      )
   }

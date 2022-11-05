@@ -40,7 +40,7 @@
                
 
                 <label htmlFor="message">Last name
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
+                <textarea  name="message" id="message" cols="30" rows="10"  placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
                 </label>
 
                <label htmlFor="terms" className="terms container">

@@ -93,7 +93,7 @@ footer div{
   display: flex;
   justify-content: space-between;
   margin: 1rem 7rem;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   border-top: 1px solid rgba(234, 236, 240, 1);
   align-items: center;
 }
@@ -116,14 +116,21 @@ label{
   align-items: center;
 }
 .socials{
-  display: none;
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+}
+textarea{
+  resize: none;
+  font-family: inherit;
 }
 .contact-page{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  margin: 8rem 0;
+  margin: 6rem 0 8rem 0;
 }
 .form-contact,.contact-header{
   display: flex;
@@ -260,6 +267,6 @@ input:focus,textarea:focus{
     flex-direction: column;
   }
   .contact-page{
-    margin: 3rem 0;
+    margin: 3rem 0 7rem 0;
   }
 }
