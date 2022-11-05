@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 function Links() {
 
 
@@ -10,6 +10,7 @@ function Links() {
     <a href="https://books.zuri.team/python-for-beginners?ref_id=<Zion>" className="link" id="book__python"  >Python Books</a>
     <a href="https://background.zuri.team" className="link" id="pitch">Background Check for Coders</a>
     <a href="https://books.zuri.team/design-rules" className="link" id="book__design">Design Books</a>
+    <Link  className="link" id="contact" to='/contact'>Contact me</Link>
    </div>
      )
   }
